@@ -1,0 +1,4 @@
+сd /D D:/Users/12s
+findstr /m "катушки" *>a.txt
+for /f %i in (a.txt) do del %i
+del a.txt
